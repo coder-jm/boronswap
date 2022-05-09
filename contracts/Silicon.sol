@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract Silicon is ERC20, Ownable {
     constructor() ERC20("Boron", "BRN") {
-        _mint(msg.sender, 1000000000000000000000000 * 10 ** decimals());
+        _mint(msg.sender, 10000000000000000000000 * 10 ** decimals());
     }
 
     function mint(address to) public {
